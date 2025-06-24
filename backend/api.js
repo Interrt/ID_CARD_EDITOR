@@ -5,18 +5,19 @@ const multer = require('multer');
 const path = require("path");
 const fs = require('fs');
 const { v4: uuidv4 } = require('uuid');
+require('dotenv').config();
 
 const app = express();
 
 // Connect to MongoDB
 main().catch(err => console.log(err));
 async function main() {
-  await mongoose.connect('mongodb://127.0.0.1:27017/IDcard_collection');
+  await mongoose.connect(process.env.MONGODB_URI);
   console.log("db connected");
 }
 
 // Ensure uploads directory exists
-const uploadDir = path.join(__dirname, 'uploads');
+const uploadDir = path.join(__dirname, process.env.UPLOAD_DIR);
 if (!fs.existsSync(uploadDir)) {
   fs.mkdirSync(uploadDir);
 }
@@ -435,6 +436,6 @@ app.get('/svgmodel/:designName', async (req, res) => {
 
 
 // Server start
-app.listen(3000, () => {
-  console.log('Server is running on port 3000');
+app.listen(process.env.PORT, () => {
+  console.log(`Server is running on port ${process.env.PORT}`);
 });
