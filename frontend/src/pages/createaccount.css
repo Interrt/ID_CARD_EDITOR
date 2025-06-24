@@ -1,0 +1,144 @@
+.create-account-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #e6e5e5;
+  padding: 20px;
+}
+
+.create-account-card {
+  background-color: rgb(252, 252, 252);
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 40px;
+  width: 100%;
+  max-width: 450px;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  color: #333;
+}
+
+.subtitle {
+  font-size: 20px;
+  text-align: center;
+  color: #555;
+}
+
+
+
+.form-group label {
+  display: block;
+  font-weight: 500;
+  color: #444;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 12px 15px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 16px;
+  transition: border-color 0.3s;
+}
+
+.form-group input:focus {
+  border-color: #0066ff;
+  outline: none;
+}
+
+.primary-button {
+  width: 100%;
+  padding: 14px;
+  background-color: #000000;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-top: 5px;
+}
+
+.primary-button:hover {
+  background-color: #33c2ff;
+}
+
+.social-login {
+  margin-top: 10px;
+}
+
+.divider {
+  text-align: center;
+  position: relative;
+  margin: 10px 0;
+  color: #777373;
+}
+
+.divider::before,
+.divider::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  width: 40%;
+  height: 1px;
+  background-color: #cbb3b3;
+}
+
+.divider::before {
+  left: 0;
+}
+
+.divider::after {
+  right: 0;
+}
+
+.social-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.social-button {
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.social-button:hover {
+  background-color: #f9f9f9;
+}
+
+.social-button.google {
+  color: #060101;
+}
+
+.social-button.facebook {
+  color: #000000;
+}
+
+.social-button.apple {
+  color: #000;
+}
+.create_para{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 20px;
+    font-size:13px;
+    text-align: center;
+
+}
+.img_position{
+    padding-left: 250px;
+}

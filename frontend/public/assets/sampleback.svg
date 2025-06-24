@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Rear" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 153.07 240.94">
+  <rect  width="153.07" height="240.94" fill="#fff"/>
+  <polygon id="bgColor" points="153.07 156.11 153.07 240.91 110.68 198.51 153.07 156.11" fill="#1b1464"/>
+  <polygon id="bgColor1" points="153.07 165.24 153.07 231.77 119.81 198.51 153.07 165.24" fill="#fff"/>
+  <polygon  id="bgColor2" points="153.07 0 153.07 54.8 150.27 57.6 108.21 15.54 123.75 0 153.07 0" fill="#1b1464"/>
+  <polygon id="bgColor3" points="27.68 156.11 0 183.79 -.09 183.7 -.09 128.52 0 128.43 27.68 156.11" fill="#1b1464"/>
+ <text transform="translate(44.15 91.51)" fill="#1b1464" font-family="Montserrat-Medium, Montserrat" font-size="7" font-weight="500">
+  Company Address
+  
+</text>
+
+<text 
+    transform="translate(30.02 107)" 
+    fill="#1b1464" 
+    font-family="Montserrat, sans-serif" 
+    font-size="6" 
+    font-weight="400" 
+    
+  >
+  <tspan id="companyNameText" ></tspan>
+    <tspan 
+      id="doorNo" 
+      x="0"
+	  y="7.2"
+    ></tspan>
+    <tspan 
+      id="street" 
+      x="0" 
+      y="14.4"
+    ></tspan>
+    <tspan 
+      id="location" 
+      x="0" 
+      y="21.6"
+    ></tspan>
+    <tspan 
+      id="district" 
+      x="0" 
+      y="28.8"
+    ></tspan>
+  </text>
+	<text transform="translate(20.54 32.9)" fill="#1b1464" font-family="Montserrat-Medium, Montserrat" font-size="6" font-variation-settings="&apos;wght&apos; 500" font-weight="500"><tspan x="0" y="0"  >Company Name:<tspan id="companyname"></tspan></tspan></text>
+  <text transform="translate(20.54 42.65)" fill="#1b1464" font-family="Montserrat-Medium, Montserrat" font-size="6" font-variation-settings="&apos;wght&apos; 500" font-weight="500"><tspan x="0" y="0">Blood Group:<tspan id="bloodgroup"></tspan></tspan></text>
+  <text transform="translate(20.85 53.49)" fill="#1b1464" font-family="Montserrat-Medium, Montserrat" font-size="6" font-variation-settings="&apos;wght&apos; 500" font-weight="500"><tspan x="0" y="0" >Email:<tspan id="emailid" ></tspan></tspan></text>
+</svg>

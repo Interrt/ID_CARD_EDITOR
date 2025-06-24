@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Front" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 153.07 240.94">
+  <rect width="153.07" height="240.94" fill="#fff"/>
+  <polygon points="153.07 107.36 153.07 173.89 119.81 140.63 153.07 107.36" fill="#fff"/>
+  <polygon points="58.81 53.48 20.79 91.51 -.09 70.62 -.09 36.34 20.79 15.46 58.81 53.48" fill="#fff"/>
+  <g>
+    <polygon id="bgColor" points="153.07 98.23 153.07 183.03 110.68 140.63 153.07 98.23" fill="#1b1464"/>
+    <polygon id="bgColor1" points="68.13 53.48 20.79 100.83 -.09 79.95 -.09 27.02 20.79 6.14 68.13 53.48" fill="#1b1464"/>
+    <rect id="bgColor2" x="32.32" y="88.19" width="39.14" height="39.14" transform="translate(91.4 -5.13) rotate(45)" fill="#1b1464"/>
+    <polygon id="bgColor4" points="153.07 0 153.07 54.8 150.27 57.6 108.21 15.54 123.75 0 153.07 0" fill="#1b1464"/>
+    <defs>
+      <clipPath id="polygonClip">
+        <polygon
+          points="153.07 67.49 153.07 90.77 111.01 132.83 57.31 79.13 111.01 25.43 153.07 67.49"
+        />
+      </clipPath>
+    </defs>
+
+    <image
+      id="userImage"
+      href="https://via.placeholder.com/120"
+      x="60" y="30"
+      width="100"
+      height="100"
+      clip-path="url(#polygonClip)"
+      preserveAspectRatio="xMidYMid slice"
+    />
+
+    <polygon
+      id="userImagePolygonBorder bgColor3" points="153.07 67.49 153.07 90.77 111.01 132.83 57.31 79.13 111.01 25.43 153.07 67.49"
+      stroke="black"         stroke-width="1"       fill="none"            />
+
+    <polygon id="bgColor5" points="27.68 123.19 0 150.87 -.09 150.78 -.09 95.6 0 95.51 27.68 123.19" fill="#1b1464"/>
+  </g>
+  <text transform="translate(14.77 173.69)" fill="#1b1464" font-family="Montserrat-SemiBold, Montserrat" font-size="13" font-variation-settings="&apos;wght&apos; 600" font-weight="600"><tspan x="0" y="0" id="name">venki</tspan></text>
+  <text transform="translate(14.48 183.05)" fill="#1b1464" font-family="Montserrat-Medium, Montserrat" font-size="6" font-variation-settings="&apos;wght&apos; 500" font-weight="500"><tspan x="0" y="0" id="role">Graphdesigner</tspan></text>
+  <text transform="translate(14.93 219.43)" fill="#1b1464" font-family="Montserrat-Regular, Montserrat" font-size="6" font-variation-settings="&apos;wght&apos; 400"><tspan x="0" y="0">ID : </tspan><tspan x="11.18" y="0" letter-spacing="0em" id="idnumber"></tspan></text>
+</svg>
